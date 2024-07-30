@@ -13,6 +13,7 @@
 }
 
 body {
+    background-color: var(--Ciano);
     min-width: 400px;
     max-width: 1500px;
 }
@@ -55,7 +56,7 @@ article {
 }
 
 section {
-    background-color: var(--Ciano);
+    background-color: var(--VerdeClaro);
     border-radius: 5px;
     margin:-4px;
     padding:0px;

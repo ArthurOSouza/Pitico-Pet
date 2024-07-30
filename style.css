@@ -1,33 +1,27 @@
-/*
-    Ciano - #779cab        |Cor do texto - preto
-    Azul escuro - #0e1428  |Cor do texto - branco
-    Laranja - #f97c2b      |Cor do texto - preto
-    Verde escuro - #28502e |Cor do texto - branco
-    Verde claro - #47682c  |Cor do texto - branco
-*/
+
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*Oswald*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*Merriweather*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*Roboto Mono*/
 
 :root {
-    --Laranja: #FA7D2A;
-    --Marrom: #B48F79;
-    --Cinza: #434F50;
-    --Ciano: #70DAE0;
+    --Ciano: #779cab;         /*Cor do texto -> Preto  */
+    --AzulEscuro: #0e1428;    /*Cor do texto -> Branco */
+    --laranja: #f97c2b;       /*Cor do texto -> Preto  */
+    --VerdeEscuro: #28502e;   /*Cor do texto -> Branco */
+    --VerdeClaro: #c9f2c7;    /*Cor do texto -> Preto  */ 
 }
 
 body {
-    background-color: var(--Ciano);
     min-width: 400px;
     max-width: 1500px;
 }
 
 header {
-    background-color: var(--Laranja);
+    background-color: var(--AzulEscuro);
     border-radius: 15px;
     text-align: center;
-    color: black;
+    color: white;
     padding:2px;
     margin:-4px;
     font-family: "Oswald", sans-serif;
@@ -37,35 +31,35 @@ header {
 }
 
 main {
-    background-color: var(--Marrom);
+    background-color: var(--VerdeEscuro);
     border-radius: 5px;
     margin:-4px;
     padding:0px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: black;
+    color: white;
     font-size: medium;
 }
 
 article {
-    background-color: var(--Marrom);
+    background-color: var(--VerdeEscuro);
     border-radius: 5px;
     margin:-4px;
     padding:0px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: black;
+    color: white;
     font-size: medium;
 }
 
 section {
-    background-color: var(--Cinza);
+    background-color: var(--Ciano);
     border-radius: 5px;
     margin:-4px;
     padding:0px;
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -82,5 +76,5 @@ li {
 }
 
 a {
-    color:darkblue;
+    color:aqua;
 }

@@ -15,7 +15,7 @@
 body {
     background-color: var(--VerdeClaro);
     min-width: 400px;
-    max-width: 1500px;
+    max-width: 2000px;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     border-radius: 15px;
     text-align: center;
     color: white;
-    padding:2px;
+    padding:10px;
     margin:-4px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -35,7 +35,7 @@ main {
     background-color: var(--VerdeEscuro);
     border-radius: 5px;
     margin:-4px;
-    padding:0px;
+    padding:10px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
@@ -47,7 +47,7 @@ article {
     background-color: var(--VerdeEscuro);
     border-radius: 5px;
     margin:-4px;
-    padding:0px;
+    padding:10px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
@@ -59,7 +59,7 @@ section {
     background-color: var(--Ciano);
     border-radius: 5px;
     margin:-4px;
-    padding:0px;
+    padding: -5px;
     color: black;
 }
 
@@ -78,4 +78,10 @@ li {
 
 a {
     color:aqua;
+}
+
+#texto {
+    position: relative;
+    Top: 100px;
+    left: 50px;
 }
